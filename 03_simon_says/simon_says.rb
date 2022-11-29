@@ -16,9 +16,8 @@ end
 def start_of_word(word, num)
     word[0, num]
 end
-def first_word(word)
-    words = word.split(' ')
-    words[0]
+def first_word(string)
+    string[0..(string.index(' ') || 0) - 1]
 end
 def titleize(title)
     little_words = ['and','of','in','an', 'the','a', 'over']
