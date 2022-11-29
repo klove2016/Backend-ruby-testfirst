@@ -7,11 +7,11 @@ def shout(word)
     word.upcase
 end
 def repeat(word, num = 2 )
-    words = []
+    words = ""
     for w in 0...num
-        words.push(word)
+        words += " #{word}"
     end
-    return words.join(' ')
+    return words
 end
 def start_of_word(word, num)
     word[0, num]
