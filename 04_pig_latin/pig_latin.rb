@@ -9,7 +9,7 @@ def translate_one_word(word)
     firstlet = word[0]
  seclet = word[1]
  thirdlet = word[2]
- vowel = ['a','e','i','o','u']
+ vowels = ['a','e','i','o','u']
    
         if firstlet + seclet == 'qu'
             word.slice!(0,2)
