@@ -6,9 +6,9 @@ def subtract(a, b)
     a - b
 end
 def sum(array)
-    sum = 0; 
+    sum = 0
         for num in 0..array.length
-            sum += array[num].to_i;
+            sum += array[num].to_i
         end
-    return sum;
+    return sum
 end
